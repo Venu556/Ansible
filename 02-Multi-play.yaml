@@ -7,6 +7,6 @@
 - name: play-02
   hosts: web
   tasks:
-  - name: Play-01 Task-01
+  - name: play-02 Task-01
     ansible.builtin.debug:
       
