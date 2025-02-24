@@ -23,5 +23,6 @@
   tasks:
   - name: print the course information
     ansible.builtin.debug:
-      msg: "Hi, i am learning {{course}}, duration is {{duration}},topics are {{topics}}, and live: {{live}}, tools are: {{tools}}"
+      msg: " Hi, i am learning {{course}}, duration is {{duration}},topics are {{topics}}, and live: {{live}}, 
+      tools is {{tools}} "
   
